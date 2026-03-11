@@ -1,5 +1,5 @@
 ---
-name: m_architecture
+name: architecture
 description: Create or improve an ARCHITECTURE.md for a software project through guided, iterative dialogue. Use when starting a new project or when asked to write, improve, or review an architecture or ARCHITECTURE.md.
 user-invocable: true
 disable-model-invocation: true

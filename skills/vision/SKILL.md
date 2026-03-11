@@ -1,5 +1,5 @@
 ---
-name: m_vision
+name: vision
 description: Create or improve a VISION.md for a software project through guided, iterative dialogue. Use when starting a new project or when asked to write, improve, or review a vision or VISION.md.
 user-invocable: true
 disable-model-invocation: true
