@@ -10,7 +10,7 @@
     {
       "name": "maggus",
       "source": "./",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "Maggus skills - implementation planning and more"
     }
   ]
