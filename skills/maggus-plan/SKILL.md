@@ -232,9 +232,7 @@ After generating the initial plan, **do not save it yet.** Instead, iterate unti
    - Surface new technical considerations
 4. **Check for new questions** — sometimes resolving one question reveals another. If new questions arise, add them and continue the loop.
 5. **Repeat** until the Open Questions section is empty or the user explicitly defers remaining items (mark deferred items with `— deferred`).
-6. **Final confirmation** — Present the final plan and ask: *"All open questions are resolved. Ready to save?"*
-
-Only after the user confirms, proceed to save the file.
+6. **Save automatically** — once all open questions are resolved (or deferred), save the file immediately. No need to ask for confirmation.
 
 **Important:** Each iteration should show only the changes, not the full plan again — unless the user asks to see the full plan. Keep the loop lightweight.
 
