@@ -17,7 +17,7 @@ Create detailed, actionable feature plans that are architecture-aware and suitab
 3. Ask 3-5 essential clarifying questions (with lettered options)
 4. Generate a structured feature plan based on answers
 5. Iterate: resolve all open questions with the user until none remain
-6. Save to `.maggus/feature_NNN.md`
+6. Save to `.maggus/features/feature_NNN.md`
 
 **Important:** Do NOT start implementing. Just create the feature plan.
 
@@ -255,10 +255,10 @@ The feature plan reader may be a junior developer or AI agent. Therefore:
 ## Output
 
 - **Format:** Markdown (`.md`)
-- **Location:** `.maggus/`
+- **Location:** `.maggus/features/`
 - **Filename:** `feature_NNN.md` where NNN is a zero-padded rolling number (e.g. `feature_001.md`, `feature_002.md`)
 
-To determine the next number, check existing `feature_*.md` files in `.maggus/` and increment.
+To determine the next number, check existing `feature_*.md` files in `.maggus/features/` and increment.
 
 ---
 
@@ -421,4 +421,4 @@ Before saving the feature plan:
 - [ ] Flagged any architecture updates needed
 - [ ] All open questions resolved or explicitly deferred by user
 - [ ] User confirmed final plan
-- [ ] Saved to `.maggus/feature_NNN.md`
+- [ ] Saved to `.maggus/features/feature_NNN.md`
