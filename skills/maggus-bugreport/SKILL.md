@@ -80,7 +80,7 @@ Link to related plan, task, or commit if applicable. Format:
 ## Related
 
 - **Plan:** plan_3.md
-- **Task:** TASK-001
+- **Task:** BUG-001-001
 - **Commit:** 426494a
 ```
 
@@ -99,10 +99,10 @@ This is the most important section. Based on your investigation:
 - If uncertain, list candidate causes ranked by likelihood
 
 ### User Stories
-Each fix should be a `TASK-NNN` that maggus can work on:
+Each fix should be a `BUG-NNN-XXX` task that maggus can work on, where `NNN` is the bug number and `XXX` is the task number within the bug:
 
 ```markdown
-### TASK-001: [Fix title]
+### BUG-NNN-001: [Fix title]
 
 **Description:** As a [user/developer], I want [fix] so that [expected behavior is restored].
 
@@ -177,7 +177,7 @@ The same bug affects `handleDetailScroll` (line 145) which modifies scroll offse
 
 ## User Stories
 
-### TASK-001: Fix value-receiver mutations in tui_keys.go
+### BUG-001-001: Fix value-receiver mutations in tui_keys.go
 
 **Description:** As a user, I want tab switching and detail scrolling to work in the work view so I can monitor different aspects of running tasks.
 
