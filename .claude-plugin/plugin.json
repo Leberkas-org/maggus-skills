@@ -1,6 +1,6 @@
 {
   "name": "maggus",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Maggus - Your best and worst co-worker. A junior developer that just works and only asks questions when the work itself is unclear.",
   "author": {
       "name": "Christian Dirnhofer"
@@ -8,7 +8,8 @@
   "skills": [
     "./skills/maggus-plan",
     "./skills/maggus-vision",
-    "./skills/maggus-architecture"
+    "./skills/maggus-architecture",
+    "./skills/maggus-bugreport"
   ],
   "agents": []
 }
