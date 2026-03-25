@@ -258,6 +258,16 @@ The feature plan reader may be a junior developer or AI agent. Therefore:
 
 To determine the next number, check existing `feature_*.md` files in `.maggus/features/` and increment.
 
+**Before writing the file**, generate a unique ID:
+1. Run `uuidgen` via Bash. Use the result as the ID.
+2. If `uuidgen` fails or is unavailable, use a timestamp-based fallback: `YYYYMMDD-HHMMSS-feature-NNN` (e.g. `20260325-143000-feature-003`).
+
+The very first line of the file must be:
+```
+<!-- maggus-id: <generated-id> -->
+```
+This goes above the `# Feature NNN:` title.
+
 ---
 
 ## Example Plan
