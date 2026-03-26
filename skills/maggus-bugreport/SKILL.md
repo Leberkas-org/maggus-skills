@@ -140,8 +140,11 @@ Each fix should be a `BUG-NNN-XXX` task that maggus can work on, where `NNN` is 
 - **Numbering:** Check existing `.maggus/bugs/bug_*.md` files and use the next number
 
 **Before writing the file**, generate a unique ID:
-1. Run `uuidgen` via Bash. Use the result as the ID.
-2. If `uuidgen` fails or is unavailable, use a timestamp-based fallback: `YYYYMMDD-HHMMSS-bug-NNN` (e.g. `20260325-143000-bug-003`).
+1. Run a GUID command via Bash:
+   - **Windows:** `powershell -NoProfile -Command "[guid]::NewGuid().ToString()"`
+   - **macOS/Linux:** `uuidgen`
+   Use the result as the ID.
+2. If the command fails or is unavailable, use a timestamp-based fallback: `YYYYMMDD-HHMMSS-bug-NNN` (e.g. `20260325-143000-bug-003`).
 
 The very first line of the file must be:
 ```
